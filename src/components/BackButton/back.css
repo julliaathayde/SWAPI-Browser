@@ -1,0 +1,12 @@
+a {
+  font-size: 1.3em;
+  align-self: flex-end;
+  color: #ffe300;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+a:hover {
+  color: #e0c600;
+}

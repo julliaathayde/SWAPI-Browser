@@ -1,0 +1,53 @@
+
+body {
+  background-color: #383d42;
+  font-size: 20px;
+}
+.footer {
+  color: #9b9b9b;
+}
+.brand {
+  font-size: 2rem;
+}
+
+a {
+  color: #ffe300;
+  text-decoration: none;
+}
+a:hover {
+  color: #e0c600;
+}
+.item-menu {
+  font-size: 1.8rem;
+}
+.card {
+  width: 100%;
+  background: #9b9b9b;
+}
+.card:hover {
+  background-color: #606060;
+  color: #fff;
+  transition: background-color .5s, color 1s;
+}
+.card-link {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.card-link:hover {
+  border-bottom: 1px solid #e0c600;
+}
+.card-info {
+  background-color: #606060;
+  color: #fff;
+}
+.card-info dd {
+  margin-left: 1rem;
+  color: #e0c600;
+}
+.jumbotron {
+  background-color: #2a2b2b;
+  color: #fff;
+}
+.jumbotron-link {
+  font-size: inherit;
+}
