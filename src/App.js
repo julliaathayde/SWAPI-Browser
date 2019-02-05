@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Header from './components/Header'
-import Menu from './components/Menu'
+import Header from './components/Header';
+import MenuXs from './components/MenuXs';
+import MainMenu from './components/MainMenu';
 import Home from './components/Home'
 import CharacterContainer from './components/CharacterContainer';
-import PeopleContainer from './components/PeopleContainer'
+import PeopleContainer from './components/PeopleContainer';
 import PlanetsContainer from './components/PlanetsContainer';
-import PlanetContainer from './components/PlanetContainer'
-import VehiclesContainer from './components/VehiclesContainer'
-import VehicleContainer from './components/VehicleContainer'
-import './App.css'
+import PlanetContainer from './components/PlanetContainer';
+import VehiclesContainer from './components/VehiclesContainer';
+import VehicleContainer from './components/VehicleContainer';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
         <div className="App">
           <div className="container mt-5">
             <Header />
-            <Menu />
+            <MainMenu />
+            <MenuXs />
             <hr />
             <Switch>
               <Route exact path='/'
